@@ -1,0 +1,29 @@
+<!DOCTYPE html> <!-- Declaración del tipo de documento HTML -->
+<html lang="es"> <!-- Inicio de la etiqueta HTML con especificación de idioma -->
+<head>
+    <meta charset="UTF-8"> <!-- Especificación del conjunto de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuración de la vista en dispositivos móviles -->
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS externo -->
+    <title>FUCHIBROS INNOVADORES</title> <!-- Título de la página -->
+</head>
+<body>
+    <div id="contenedor"> <!-- Inicio del contenedor principal -->
+        <h2>REGISTRAR DOCENTE</h2> <!-- Encabezado -->
+        <form action="registrar.php" method="POST"> <!-- Formulario de registro con método POST y acción hacia registrar.php -->
+            <label>Nombres</label> <!-- Etiqueta para el campo de nombres -->
+            <input type="text" name="nombre" id="nombre" required><br><br> <!-- Campo de entrada de texto para nombres -->
+
+            <label>Apellidos</label> <!-- Etiqueta para el campo de apellidos -->
+            <input type="text" name="apellido" id="apellido" required><br><br> <!-- Campo de entrada de texto para apellidos -->
+
+            <label>Especialidad</label> <!-- Etiqueta para el campo de especialidad -->
+            <input type="text" name="especialidad" id="especialidad" required><br><br> <!-- Campo de entrada de texto para especialidad -->
+
+            <label>Sueldo</label> <!-- Etiqueta para el campo de sueldo -->
+            <input type="text" name="sueldo" id="sueldo" required><br><br> <!-- Campo de entrada de texto para sueldo -->
+
+            <input type="submit" value="Registrar"> <!-- Botón de envío del formulario -->
+        </form>
+    </div>
+</body>
+</html>
